@@ -1,0 +1,1 @@
+Template of vscode configuration for develop, debug STM32
