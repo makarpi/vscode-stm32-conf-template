@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "name": "Debug (ST-Util)",
+        "type": "cortex-debug",
+        "request": "launch",
+        "servertype": "openocd",
+        "interface": "swd",
+        "cwd": "${workspaceRoot}/src",
+        "executable": "${workspaceRoot}/src/out/stm32f7-template.elf",
+        "svdFile": "${workspaceRoot}/external/STM32F767.svd",
+        "device": "STM32F767ZI",
+        "configFiles": [
+            "D:/_Repository/stm32/OpenOCD-20191029-0.10.0/share/openocd/scripts/interface/stlink-v2-1.cfg",
+            "D:/_Repository/stm32/OpenOCD-20191029-0.10.0/share/openocd/scripts/target/stm32f7x.cfg"
+        ]
+    }
+    ]
+}
