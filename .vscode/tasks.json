@@ -19,9 +19,10 @@
         {
             "label": "Load Firmware",
             "type": "shell",
-            "command": "st-flash write ./build/vsarm_firmware.bin 0x08000000",
+            // "command": "st-flash write ./build/vsarm_firmware.bin 0x08000000",
+            "command": "openocd -f interface/stlink-v2.cfg -f target/stm32f7x.cfg -c \"init;reset;halt;flash write_image erase ./out/stm32f7-template.hex;reset run;shutdown;\"",
             "options": {
-                "cwd": "${workspaceRoot}"
+                "cwd": "${workspaceRoot}/src"
             },
             "group": {
                 "kind": "build",

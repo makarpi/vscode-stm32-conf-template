@@ -1,4 +1,6 @@
 {
-    "cortex-debug.armToolchainPath": "D:/_Repository/arm-none-eabi-gcc-9.3.0-200323/bin/",
-    "cortex-debug.openocdPath": "D:/_Repository/stm32/OpenOCD-20191029-0.10.0/bin/openocd.exe"
+    "cortex-debug.armToolchainPath": "D:/_Repository/arm-none-eabi-gcc-9.3.0-200323/bin",
+    "cortex-debug.openocdPath": "D:/_Repository/stm32/OpenOCD-20191029-0.10.0/bin/openocd.exe",
+    "stm32-for-vscode.openocdPath": "D:\\_Repository\\stm32\\OpenOCD-20191029-0.10.0\\bin\\openocd",
+    "stm32-for-vscode.makePath": "C:\\Users\\Mateusz\\AppData\\Roaming\\xPacks\\@gnu-mcu-eclipse\\windows-build-tools\\2.12.1-1\\.content\\bin\\make"
 }
